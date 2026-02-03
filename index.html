@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COGNIVERGE - The Convergence of Code, Creativity & Intelligence</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-wrapper">
+            <div class="nav-logo">
+                <img src="Cogniverge Logo.png" alt="COGNIVERGE" class="logo-image">
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#events">EVENTS</a></li>
+                <li><a href="#schedule">SCHEDULE</a></li>
+                <li><a href="#speakers">Organizers and Convenors</a></li>
+                <li><a href="#register">REGISTER</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="grid"></div>
+            <div class="circuit"></div>
+        </div>
+        <div class="red-dots"></div>
+        <div class="hero-wrapper">
+            <div class="hero-text">
+                <div class="accent-bar"></div>
+                <h1 class="hero-title"><img src="Cogniverge Logo.png" height="124" width="461" alt="cogniverge logo"></h1>
+                <p class="hero-tagline">The Convergence of Code, Creativity & Intelligence</p>
+                <p class="hero-description">Where the brightest minds compete, innovate, and transform the future of technology</p>
+                <div class="cta-buttons">
+                    <button class="btn btn-red" onclick="document.getElementById('events').scrollIntoView({behavior: 'smooth'})">EXPLORE EVENTS</button>
+                    <button class="btn btn-black" onclick="document.getElementById('register').scrollIntoView({behavior: 'smooth'})">JOIN NOW</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="visual-element"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="events-section">
+        <h2 class="section-title">EVENTS</h2>
+        
+        <div class="events-masonry">
+            <div class="event-card">
+                <span class="badge">COMPETITION</span>
+                <h3>Project Expo</h3>
+                <p>24-hour intensive coding marathon where you build amazing projects. Compete with the brightest minds, win amazing prizes, and showcase your innovation to industry leaders.</p>
+                <button class="btn-card" onclick="selectEvent('Project_Expo')">Details →</button>
+            </div>
+
+            <div class="event-card">
+                <span class="badge">COMPETITION</span>
+                <h3>Poster Presentation</h3>
+                <p>Test your problem-solving skills in real-world competitive programming challenges. Solve algorithmic problems under time pressure and compete against talented developers worldwide.</p>
+                <button class="btn-card" onclick="selectEvent('Poster_Presentation')">Details →</button>
+            </div>
+
+            <div class="event-card">
+                <span class="badge">COMPETITION</span>
+                <h3>PPT Presentation</h3>
+                <p>Deep dive into machine learning and artificial intelligence techniques. Learn from experts about neural networks, deep learning, and practical AI applications in modern technology.</p>
+                <button class="btn-card" onclick="selectEvent('PPT_Presentation')">Details →</button>
+            </div>
+
+            <div class="event-card">
+                <span class="badge">WORKSHOP</span>
+                <h3>Workshop (Agentic AI)</h3>
+                <p>Design, build, and program autonomous robots to complete challenging real-world tasks. Showcase your robotics expertise and compete in various categories for prizes.</p>
+                <button class="btn-card" onclick="selectEvent('Workshop_Agentic_AI')">Details →</button>
+            </div>
+
+            <div class="event-card">
+                <span class="badge">COMPETITION</span>
+                <h3>Code Crime</h3>
+                <p>Hands-on cybersecurity challenge where you defend systems from cyber attacks. Learn ethical hacking techniques and security best practices from industry experts.</p>
+                <button class="btn-card" onclick="selectEvent('Code_Crime')">Details →</button>
+            </div>
+
+            <div class="event-card">
+                <span class="badge">COMPETITION</span>
+                <h3>IPL Auction</h3>
+                <p>Master modern web technologies and frameworks. Learn responsive design, front-end and back-end development from industry professionals with hands-on projects.</p>
+                <button class="btn-card" onclick="selectEvent('IPL_Auction')">Details →</button>
+            </div>
+
+            <div class="event-card">
+                <span class="badge">COMPETITION</span>
+                <h3>Double Trouble</h3>
+                <p>Master modern web technologies and frameworks. Learn responsive design, front-end and back-end development from industry professionals with hands-on projects.</p>
+                <button class="btn-card" onclick="selectEvent('Double_Trouble')">Details →</button>
+            </div>
+
+            <div class="event-card">
+                <span class="badge">COMPETITION</span>
+                <h3>Anime Fiesta</h3>
+                <p>Master modern web technologies and frameworks. Learn responsive design, front-end and back-end development from industry professionals with hands-on projects.</p>
+                <button class="btn-card" onclick="selectEvent('Anime_Fiesta')">Details →</button>
+            </div>
+
+            <div class="event-card">
+                <span class="badge">COMPETITION</span>
+                <h3>Smash Karts Tournament</h3>
+                <p>Master modern web technologies and frameworks. Learn responsive design, front-end and back-end development from industry professionals with hands-on projects.</p>
+                <button class="btn-card" onclick="selectEvent('Smash_Karts_Tournament')">Details →</button>
+            </div>
+
+            <div class="event-card">
+                <span class="badge">COMPETITION</span>
+                <h3>Hit & Drop</h3>
+                <p>Master modern web technologies and frameworks. Learn responsive design, front-end and back-end development from industry professionals with hands-on projects.</p>
+                <button class="btn-card" onclick="selectEvent('Hit_and_Drop')">Details →</button>
+            </div>
+
+            <div class="event-card">
+                <span class="badge">COMPETITION</span>
+                <h3>Vortex Arena</h3>
+                <p>Master modern web technologies and frameworks. Learn responsive design, front-end and back-end development from industry professionals with hands-on projects.</p>
+                <button class="btn-card" onclick="selectEvent('Vortex_Arena')">Details →</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule" class="schedule-section">
+        <h2 class="section-title">1-Day Schedule</h2>
+
+        <div class="schedule-days">
+            <button class="day-tab active" data-day="1" onclick="switchDay(1)">
+                <div class="day-number">13 Feb 2026</div>
+                <span>Day 1</span>
+            </button>
+        </div>
+
+        <div class="schedule-display">
+            <div class="day-schedule active" data-day="1">
+                <div class="timeline-item"><div class="time">09:00</div><div class="event"><strong>Opening Ceremony</strong><p>Main Auditorium - 1 Hour</p></div></div>
+                <div class="timeline-item"><div class="time">10:30</div><div class="event"><strong>CodeCraft Hackathon Kickoff</strong><p>Tech Lab - 24 Hours Begin</p></div></div>
+                <div class="timeline-item"><div class="time">11:00</div><div class="event"><strong>Web Development Workshop</strong><p>Hall A - 2 Hours</p></div></div>
+                <div class="timeline-item"><div class="time">01:00 PM</div><div class="event"><strong>Algorithm Arena - Round 1</strong><p>Computer Labs - 3 Hours</p></div></div>
+                <div class="timeline-item"><div class="time">04:30 PM</div><div class="event"><strong>AI/ML Summit Session</strong><p>Hall C - 2 Hours</p></div></div>
+                <div class="timeline-item"><div class="time">06:30 PM</div><div class="event"><strong>Networking Dinner</strong><p>Main Hall - 1.5 Hours</p></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Speakers Section -->
+    <section id="speakers" class="speakers-section">
+        <h2 class="section-title">Organizers and Convenors</h2>
+
+        <div class="speakers-container">
+            <div class="speaker-card">
+                <div class="speaker-photo">👨‍💼</div>
+                <div class="speaker-info">
+                    <h4>Dr. Sarah Chen</h4>
+                    <p class="role">AI Research Lead</p>
+                </div>
+            </div>
+
+            <div class="speaker-card">
+                <div class="speaker-photo">👩‍💻</div>
+                <div class="speaker-info">
+                    <h4>Marcus Johnson</h4>
+                    <p class="role">Full Stack Engineer</p>
+                </div>
+            </div>
+
+            <div class="speaker-card">
+                <div class="speaker-photo">👨‍🔬</div>
+                <div class="speaker-info">
+                    <h4>Prof. Anika Sharma</h4>
+                    <p class="role">Security Expert</p>
+                </div>
+            </div>
+
+            <div class="speaker-card">
+                <div class="speaker-photo">👩‍🚀</div>
+                <div class="speaker-info">
+                    <h4>Elena Rodriguez</h4>
+                    <p class="role">Robotics Pioneer</p>
+                </div>
+            </div>
+
+            <div class="speaker-card">
+                <div class="speaker-photo">👨‍💡</div>
+                <div class="speaker-info">
+                    <h4>James Liu</h4>
+                    <p class="role">Startup Founder</p>
+                </div>
+            </div>
+
+            <div class="speaker-card">
+                <div class="speaker-photo">👩‍🎓</div>
+                <div class="speaker-info">
+                    <h4>Dr. Priya Gupta</h4>
+                    <p class="role">Data Science Director</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="register" class="register-section">
+        <div class="register-wrapper">
+            <div class="register-header">
+                <h2>Join The Community</h2>
+                <p>Secure your spot at COGNIVERGE today</p>
+            </div>
+
+            <form class="register-form" id="registrationForm">
+                <div class="form-group full">
+                    <label>Select Your Event</label>
+                    <div class="event-options">
+                        <div class="event-option" onclick="selectEventForRegistration('https://register.cogniverge.tech/Project Expo')">
+                            <span>Project Expo</span>
+                            <p>Porject Showcase Competition</p>
+                        </div>
+
+                        <div class="event-option" onclick="selectEventForRegistration('https://register.cogniverge.tech/Poster Presentation')">
+                            <span>Poster Presentation</span>
+                            <p>Poster Making Competition</p>
+                        </div>
+
+                        <div class="event-option" onclick="selectEventForRegistration('https://register.cogniverge.tech/PPT Presentation')">
+                            <span>PPT Presentation</span>
+                            <p>PPT Making Competition</p>
+                        </div>
+
+                        <div class="event-option" onclick="selectEventForRegistration('https://register.cogniverge.tech/Workshop-Agentic-AI)')">
+                            <span>Workshop (Agentic AI)</span>
+                            <p>Workshop on Agentic AI</p>
+                        </div>
+
+                        <div class="event-option" onclick="selectEventForRegistration('https://register.cogniverge.tech/Code Crime')">
+                            <span>Code Crime</span>
+                            <p>Cybersecurity challenge</p>
+                        </div>
+
+                        <div class="event-option" onclick="selectEventForRegistration('https://register.cogniverge.tech/IPL Auction')">
+                            <span>IPL Auction</span>
+                            <p>Its a Auction on IPL Players</p>
+                        </div>
+
+                        <div class="event-option" onclick="selectEventForRegistration('https://register.cogniverge.tech/Double Trouble')">
+                            <span>Double Trouble</span>
+                            <p>Darts Game</p>
+                        </div>
+
+                        <div class="event-option" onclick="selectEventForRegistration('https://register.cogniverge.tech/Anime Fiesta')">
+                            <span>Anime Fiesta</span>
+                            <p>Anime challenge</p>
+                        </div>
+
+                        <div class="event-option" onclick="selectEventForRegistration('https://register.cogniverge.tech/Smash Karts Tournament')">
+                            <span>Smash Karts Tournament</span>
+                            <p>Smash Karts Competition</p>
+                        </div>
+
+                        <div class="event-option" onclick="selectEventForRegistration('https://register.cogniverge.tech/Hit & Drop')">
+                            <span>Hit & Drop</span>
+                            <p>Glass Pyramid Drop</p>
+                        </div>
+
+                        <div class="event-option" onclick="selectEventForRegistration('https://register.cogniverge.tech/Vortex Arena')">
+                            <span>Vortex Arena</span>
+                            <p>Clash Royal competition</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="form-note">* Click on your chosen event to register and be redirected to the registration page</p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Why COGNIVERGE Section -->
+    <section class="why-cogniverge">
+        <h2 class="section-title">Why COGNIVERGE</h2>
+        <div class="features-grid">
+            <div class="feature-block">
+                <div class="feature-icon">📊</div>
+                <div class="feature-counter" data-target="10">0</div>
+                <p class="feature-label">Technical Events</p>
+            </div>
+            <div class="feature-block">
+                <div class="feature-icon">🎯</div>
+                <div class="feature-counter" data-target="500">0</div>
+                <p class="feature-label">Active Participants</p>
+            </div>
+            <div class="feature-block">
+                <div class="feature-icon">🏆</div>
+                <div class="feature-counter" data-target="50">0</div>
+                <p class="feature-label">Prize Pool (K)</p>
+            </div>
+            <div class="feature-block">
+                <div class="feature-icon">🌐</div>
+                <div class="feature-counter" data-target="20">0</div>
+                <p class="feature-label">Industry Partners</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="eventModal" class="modal" onclick="closeModal(event)">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <h3>
+                    <div class="nav-logo">
+                        <img src="Cogniverge Logo.png" alt="COGNIVERGE" class="logo-image">
+                    </div>
+                </h3>
+                <p>Code • Creativity • Intelligence</p>
+            </div>
+            <div class="footer-nav">
+                <a href="#home">Home</a>
+                <a href="#events">Events</a>
+                <a href="#schedule">Schedule</a>
+                <a href="#speakers">Organizers and Convenors</a>
+                <a href="#register">Register</a>
+            </div>
+        </div>
+        <div class="footer-line"></div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 COGNIVERGE. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
