@@ -1901,7 +1901,7 @@ body::after {
 
 .feature-label {
     font-size: 14px; /* Updated from diff */
-    color: var(--dark-maroon); /* Added from diff */
+    color: var(--ivory); /* Added from diff */
     text-transform: uppercase; /* Added from diff */
     letter-spacing: 1px; /* Added from diff */
 }
