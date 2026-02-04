@@ -607,7 +607,7 @@ body::after {
 }
 
 .btn-card {
-    color: var(--deep-crimson); /* Updated from diff */
+    color: var(--red-accent); /* Updated from diff */
     transition: all 0.3s ease; /* Updated from diff */
     background: none; /* Updated from diff */
     border: none; /* Updated from diff */
@@ -1048,7 +1048,7 @@ body::after {
 }
 
 .timeline-item p {
-    color: var(--dark-maroon);
+    color: var(--red-accent);
     font-size: 14px;
 }
 
@@ -1147,7 +1147,7 @@ body::after {
 }
 
 .role {
-    color: var(--dark-maroon);
+    color: var(--red-accent);
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
@@ -1229,7 +1229,7 @@ body::after {
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 20px;
-    color: var(--deep-crimson);
+    color: var(--red-accent);
 }
 
 .event-options {
