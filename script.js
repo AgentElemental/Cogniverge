@@ -82,7 +82,7 @@ function selectEvent(eventId) {
     },
     Poster_Presentation: {
       title: 'Poster Presentation',
-      description: 'Test your problem-solving skills in real-world competitive programming challenges. Solve algorithmic problems under time pressure and compete against talented developers worldwide. Multiple rounds with increasing difficulty levels.'
+      description: 'Showcase your technical ideas, research, and innovations through a visually impactful poster presentation that transforms complex concepts into clear, creative, and concise narratives. This event offers a professional platform for participants to design and present a technical poster detailing their chosen topic, methodology, and key insights before a panel of judges, with evaluation focused on innovation, technical depth, clarity of explanation, poster aesthetics, and presentation skills. Open to students from all colleges and all branches 🎓—think smart, design better, and let your ideas speak for themselves 🚀'
     },
     PPT_Presentation: {
       title: 'PPT Presentation',
@@ -90,15 +90,15 @@ function selectEvent(eventId) {
     },
     Workshop_Agentic_AI: {
       title: 'Workshop (Agentic AI)',
-      description: 'Design, build, and program autonomous robots to complete challenging real-world tasks. Showcase your robotics expertise and compete in various categories for prizes. Teams will have access to state-of-the-art equipment.'
+      description: 'Discover the world of Agentic AIs through an immersive and comprehensive workshop designed to introduce participants to the concepts, tools, and techniques behind building intelligent agents, empowering you to design, develop, and deploy your own AI-driven solutions with confidence and practical insight.'
     },
     Code_Crime: {
       title: 'Code Crime',
-      description: 'Hands-on cybersecurity challenge where you defend systems from cyber attacks. Learn ethical hacking techniques and security best practices from industry experts. Real-world scenarios and competitive environment.'
+      description: 'Compete in an exciting Tech Quiz ⚡ followed by a one-of-a-kind AI Mystery Challenge 🤖🕵️ that tests logic, pattern recognition, and smart reasoning over rote learning. Open to students from all colleges and all branches 🎓, this event invites you to team up, think analytically, and prove your tech intelligence in a fast-paced, brain-teasing environment 🚀.'
     },
     IPL_Auction: {
       title: 'IPL Auction',
-      description: 'Master modern web technologies and frameworks. Learn responsive design, front-end and back-end development from industry professionals with hands-on projects. Build a complete project from scratch.'
+      description: 'Experience the thrill of an IPL-style auction where participants form teams and strategically bid for real IPL players using a virtual budget. This high-energy event blends cricket knowledge with smart planning and tactical decision-making as teams aim to build the strongest and most balanced squad within a fixed purse. With intense bidding battles, sharp strategies, and exciting prizes on the line, the ultimate team with the smartest picks emerges victorious—let the auction war begin! 🏏🔥'
     },
     Double_Trouble: {
       title: 'Double Trouble',
@@ -106,19 +106,19 @@ function selectEvent(eventId) {
     },
     Anime_Fiesta: {
       title: 'Anime Fiesta',
-      description: 'Master modern web technologies and frameworks. Learn responsive design, front-end and back-end development from industry professionals with hands-on projects. Build a complete project from scratch.'
+      description: 'Step into a world where legends are born and fandoms collide at Anime Fiesta, a high-octane anime quiz crafted for true otakus, casual fans, and competitive minds alike. Spanning iconic classics to the latest chart-toppers, this event pushes your anime knowledge to its limits with mind-bending questions, visual and audio challenges, rapid-fire rounds, and unexpected twists that keep the adrenaline high. Whether you’re showcasing encyclopedic recall or teaming up with fellow fans, Anime Fiesta delivers intense competition, electric energy, and pure fandom thrill—because this isn’t just a quiz, it’s a full-scale celebration of anime culture. Think fast, play smart, and prove you’re the ultimate anime mastermind. 🔥'
     },
     Smash_Karts_Tournament: {
       title: 'Smash Karts Tournament',
-      description: 'Master modern web technologies and frameworks. Learn responsive design, front-end and back-end development from industry professionals with hands-on projects. Build a complete project from scratch.'
+      description: 'Get ready for high-speed action and nonstop fun with Smash Karts, an exciting multiplayer kart battle game where players race through vibrant arenas while using powerful weapons and boosts to smash their opponents. Fast-paced, competitive, and packed with surprises in every match, the game features quick rounds, easy-to-learn controls, and thrilling gameplay that keeps both players and spectators fully engaged. Step into the chaos, showcase your driving and combat skills, and battle your way to victory in an adrenaline-filled showdown.'
     },
     Hit_and_Drop: {
       title: 'Hit & Drop',
-      description: 'Master modern web technologies and frameworks. Learn responsive design, front-end and back-end development from industry professionals with hands-on projects. Build a complete project from scratch.'
+      description: 'Hit & Drop is a fun and engaging skill-based game where glasses are stacked in a pyramid formation and participants must use precision and timing to knock them all down by throwing a ball within a limited number of chances. The challenge lies in accurate aim and controlled power, as only the player who successfully clears the entire pyramid emerges victorious, making every attempt thrilling and competitive.'
     },
     Vortex_Arena: {
       title: 'Vortex Arena',
-      description: 'Master modern web technologies and frameworks. Learn responsive design, front-end and back-end development from industry professionals with hands-on projects. Build a complete project from scratch.'
+      description: 'Step into the arena and battle it out in the official Clash Royale Tournament at the College Fest, where sharp strategy, quick decision-making, and seamless teamwork define success. Compete against top players, showcase your skills in intense matchups, and fight your way to victory for glory and bragging rights.'
     },
   };
 
@@ -270,5 +270,6 @@ if (dotsContainer) {
     dotsContainer.appendChild(dot);
   }
 }
+
 
 
