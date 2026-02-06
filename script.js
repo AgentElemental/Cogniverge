@@ -86,7 +86,7 @@ function selectEvent(eventId) {
     },
     PPT_Presentation: {
       title: 'PPT Presentation',
-      description: 'Deep dive into machine learning and artificial intelligence techniques. Learn from experts about neural networks, deep learning, and practical AI applications in modern technology. Hands-on workshops and industry insights included.'
+      description: '-----'
     },
     Workshop_Agentic_AI: {
       title: 'Workshop (Agentic AI)',
@@ -270,6 +270,7 @@ if (dotsContainer) {
     dotsContainer.appendChild(dot);
   }
 }
+
 
 
 
