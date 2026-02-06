@@ -102,7 +102,7 @@ function selectEvent(eventId) {
     },
     Double_Trouble: {
       title: 'Double Trouble',
-      description: 'Master modern web technologies and frameworks. Learn responsive design, front-end and back-end development from industry professionals with hands-on projects. Build a complete project from scratch.'
+      description: 'Double Trouble 2026 is a high-energy, crowd-pulling event at MGIT Cogniverge that lives up to its name by delivering twice the excitement and twice the challenge. Designed to blend fun with friendly competition, this event invites participants to test both skill and focus in an engaging, fast-paced environment. With the theme “Double the Fun, Double the Challenge,” Double Trouble promises an experience that’s lively, interactive, and packed with adrenaline. The event features two thrilling games to look forward to: the Balloon Dart Challenge, where sharp aim and quick reflexes can earn you exciting prizes, and the Steady Hands Challenge, a precision-based test that pushes your concentration and control to the limit. Scheduled to take place on 12th and 13th February 2026, Double Trouble is more than just a game zone—it’s a celebration of fun, competition, and unforgettable moments, making it a must-attend highlight of Cogniverge.'
     },
     Anime_Fiesta: {
       title: 'Anime Fiesta',
@@ -270,3 +270,4 @@ if (dotsContainer) {
     dotsContainer.appendChild(dot);
   }
 }
+
