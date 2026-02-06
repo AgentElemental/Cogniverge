@@ -78,7 +78,7 @@ function selectEvent(eventId) {
   const eventDetails = {
     Project_Expo: {
       title: 'Project Expo',
-      description: '24-hour intensive coding marathon where you build amazing projects. Compete with the brightest minds, win amazing prizes, and showcase your innovation to industry leaders. Perfect for teams and individuals looking to push their coding skills to the limit.'
+      description: 'Project Expo 2026 at MGIT Cogniverge is an inspiring platform built around the theme “Spark Ideas, Shine Bright, Win Big!”, where participants conceptualize, design, and develop innovative projects that highlight creativity, technical expertise, and real-world problem-solving. The expo offers a dynamic showcase experience in which participants present their ideas, explain their methodology, discuss challenges, and demonstrate practical solutions, while engaging with peers, mentors, and judges. Beyond competition and the opportunity to win cash prizes, the event fosters collaboration and valuable feedback, helping participants strengthen essential skills such as innovation, communication, and teamwork. Scheduled for 12th–13th February 2026, Project Expo 2026 is a celebration of ideas turning into impactful solutions.'
     },
     Poster_Presentation: {
       title: 'Poster Presentation',
@@ -270,4 +270,5 @@ if (dotsContainer) {
     dotsContainer.appendChild(dot);
   }
 }
+
 
