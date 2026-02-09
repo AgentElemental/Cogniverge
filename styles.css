@@ -2277,3 +2277,32 @@ html::before {
   filter: drop-shadow(0 0 6px rgba(225, 6, 0, 0.6));
 }
 
+
+
+
+/* ===== Custom Scrollbar ===== */
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #e10600 #0b0b0b;
+}
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b0b0b;      /* dark track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e10600;      /* red thumb */
+  border-radius: 10px;
+  border: 2px solid #0b0b0b;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff2a2a;      /* brighter red on hover */
+}
