@@ -86,7 +86,7 @@ function selectEvent(eventId) {
     },
     PPT_Presentation: {
       title: 'PPT Presentation',
-      description: '-----'
+      description: 'Compete in an engaging Paper Presentation 🎤.Showcase your ideas, research, and innovative solutions in front of a curious tech audience.Open to students from all colleges and all branches 🎓Team up, present smart, and prove your technical thinking & communication skills 🚀'
     },
     Workshop_Agentic_AI: {
       title: 'Workshop (Agentic AI)',
