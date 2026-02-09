@@ -2272,6 +2272,8 @@ html::before {
 }
 
 .social-icon:hover {
-  color: #e10600;            /* red on hover */
+  color: #e10600;
   transform: scale(1.15);
+  filter: drop-shadow(0 0 6px rgba(225, 6, 0, 0.6));
 }
+
