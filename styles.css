@@ -2254,3 +2254,24 @@ html::before {
         animation: none;
     }
 }
+
+
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;            /* white icon */
+  transition: color 0.25s ease, transform 0.25s ease;
+}
+
+.social-icon svg {
+  width: 28px;
+  height: 28px;
+  stroke-width: 2;
+}
+
+.social-icon:hover {
+  color: #e10600;            /* red on hover */
+  transform: scale(1.15);
+}
