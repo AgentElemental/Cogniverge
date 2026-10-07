@@ -3,7 +3,7 @@
   <h2>Cogniverge</h2>
 
   <p>
-    Cogniverge Technical Fest
+    Cogniverge Technical Fest of CSM
   </p>
 
   <br>
