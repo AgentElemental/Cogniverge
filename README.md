@@ -3,7 +3,7 @@
   <h2>Cogniverge</h2>
 
   <p>
-    AI-Powered Intelligence Platform
+    Cogniverge Technical Fest
   </p>
 
   <br>
